@@ -13,5 +13,7 @@ btn.addEventListener("click" ,(event) => {
 
     çıktı.innerHTML = çıktı2;
 
+    event.preventDefault();
+
 
 })
